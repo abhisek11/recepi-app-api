@@ -28,3 +28,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 cmd:--
 ->docker-compose build
+##############################################################################33
+django with docker cmd 
+*****************************************************************************
+docker-compose run app sh -c "django-admin.py startproject app ."
