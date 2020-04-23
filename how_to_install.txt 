@@ -32,3 +32,8 @@ cmd:--
 django with docker cmd 
 *****************************************************************************
 docker-compose run app sh -c "django-admin.py startproject app ."
+
+####################################################################################
+TEST RUN COMMANDS: --------
+************************************************************************************
+docker-compose run app sh -c "python manage.py test"
