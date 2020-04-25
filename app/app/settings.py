@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'core',
     'user',
+    'knox',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'core.User'
+
+# ============= Error Msg configrations =================
+MSG_SUCCESS="Success"
+MSG_NO_DATA="No Data Found"
+MSG_ERROR="Failure"
