@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'core',
     'user',
     'knox',
+    'recipe',
 ]
 
 MIDDLEWARE = [
