@@ -1,6 +1,6 @@
 # recepi-app-api
+<a href="https://codecov.io/gh/abhisek11/recepi-app-api">
+  <img src="https://codecov.io/gh/abhisek11/recepi-app-api/branch/master/graph/badge.svg" />
+</a>
 
-.. image:: https://codecov.io/gh/abhisek11/recepi-app-api/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/abhisek11/recepi-app-api
-
-contents: 
+Description of recipe api
