@@ -45,3 +45,13 @@ class RecipedetailSerializer(RecipeSerializer):
     """Serialize a recipe details"""
     ingredient = IngredientSerializer(many=True, read_only=True)
     tags = TagSerializer(many=True, read_only=True)
+
+
+class RecipeImageSerializer(RecipeSerializer):
+    """Serialize for uploading image to recipes"""
+
+    class Meta:
+        model = Recipe
+        fields = (
+            'id', 'image')
+        read_only_fields = ('id', )
